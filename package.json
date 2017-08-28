@@ -1,30 +1,29 @@
 {
-  "name": "geojson-stream-merge",
-  "version": "4.0.0",
-  "description": "Create/clip a single FeatureCollection from line delimited GeoJSON FeatureCollections",
+  "name": "comedian",
+  "version": "1.0.0",
+  "description": "A module to clip, convert large line delimited geojsons",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "node test/*.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geohacker/geojson-stream-merge.git"
+    "url": "git+https://github.com/Fa7C0n/comedian.git"
   },
-  "author": "Sajjad Anwar",
+  "keywords": [
+    "geojson",
+    "large",
+    "clip",
+    "convert",
+    "turf"
+  ],
+  "author": "Fa7C0n",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geohacker/geojson-stream-merge/issues"
+    "url": "https://github.com/Fa7C0n/comedian/issues"
   },
-  "bin": {
-    "geojson-stream-merge": "./geojsonStreamMerge.js"
-  },
-  "homepage": "https://github.com/geohacker/geojson-stream-merge",
-  "dependencies": {
-    "fs": "0.0.1-security",
-    "geojson-assert": "^0.0.2",
-    "minimist": "^1.2.0",
-    "split": "^1.0.0",
-    "tape": "^4.6.0",
-    "turf": "^3.0.14"
-  }
+  "homepage": "https://github.com/Fa7C0n/comedian#readme"
 }
